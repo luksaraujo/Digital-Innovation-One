@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login Page - Bootcamp DIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-pai"> <!-- Cria o conteiner pai da aplicação - a página -->
+        
+        <div class="container-celular"> <!-- Cria o contêiner / coluna onde tem a foto do celular -->
+            <img src="./img/instagram-celular.png" alt="Celular com o feed do perfil da página do Instagram sendo exibido.">
+        </div>
+
+        <div class="container-entrar"> <!-- Cria o contêiner / coluna que fica ao lado direito da coluna do celular -->
+            
+            <div class="group" id="login"> <!-- Cria um contêiner com o ID login onde ficarão as informações de login -->
+                <img src="./img/instagram-logo.png" alt="Logo do Instagram." class="instagram-logo">
+                <br>
+                <div class="profile-photo"> <!-- Div que armazena a foto de perfil (precisa estar numa DIV porque só a div pode ser transformada de quadrada para redonda) -->
+                    <img src="./img/perfil-instagram.jpg" alt="Foto de perfil do Instagram do Lucas Araújo.">
+                </div>
+                <br>
+                <a href="#" class="instagram-login">Continue como luks.araujo_</a> <!-- Botão de Login -->
+                <a href="#" class="instagram-logout">Remover conta</a> <!-- Botão de logout -->
+            </div>
+
+            <div class="group" id="cadastrar"> <!-- Cria um contêiner com o ID "cadastrar" onde ficarão as informações de cadastro -->
+                <p class="not-account">Não é luks.araujo_</p>
+                <p class="not-account">
+                    <span class="link-blue">Alternar contas</span>
+                    ou
+                    <span class="link-blue">Inscreva-se</span>
+                </p>
+            </div>
+
+            <div class="get-the-app">
+                <p class="get-app">Baixe o aplicativo.</p>
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
