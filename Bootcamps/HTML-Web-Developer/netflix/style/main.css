@@ -27,9 +27,12 @@
     box-sizing: border-box;
 }
 
+/* ---------- ELEMENTOS BASE ----------*/
+
 body {
     background-color: var(--preto); /* Define a cor do fundo do elemento body para a cor que está dentro da variável "preta" */
     font-family: 'Times New Roman', Times, serif; /* Define a família de fontes utilizadas no site */
+    color: white; /* Define a cor dos elementos filhos que não têm definição de cor como branca */
 }
 
 header .logo {
@@ -54,4 +57,25 @@ header .container { /* Trata o item que tem a classe "container" dentro do "head
     flex-direction: row; /* Propriedade padrão quando 'display:flex;' é inserido. Deixa tudo em linha. Inserida apenas por semântica, mas poderia não inserir */
     align-items: center; /* Alinha os itens dentro do container ao centro. 'Align-items' sempre alinha de maneira vertical. Como tudo está em linha por conta das propriedades anteriores, serão alinhadas ao centro da linha */
     justify-content: space-between; /* Alinha os elementos de maneira horizontal. 'space-between' cria um espaço entre os itens contidos no elemento tratado */
+}
+
+/* ---------- FILME PRINCIPAL ---------- */
+
+.filme-principal { /* Manipula o item que tem a classe 'filme-principal' */
+    font-size: 16px; /* Define a fonte de todos os elementos filhos dessa classe */
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/capa-house-of-cards.jpg'); /* Define a imagem de fundo da classe e seta um gradiente para deixar a imagem de fundo um pouco mais escura */
+    height: 400px; /* Define a altura da div para 400px */
+    background-size: cover; /* Define que o tamanho do background (imagem) será suficiente para cobrir todo o fundo do elemento */
+    display: flex; /* Permite manipular elementos mais fácil (em linha ou coluna, por exemplo) */
+    flex-direction: column; /* Define que o display-flex será em colunas, e não em linhas, exibindo todos os itens em coluna */
+    justify-content: center; /* Centraliza os itens no centro da coluna */
+    align-items: flex-start; /* Faz com que os itens da página comecem na esquerda */
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px; /* Cria uma margem abaixo da DIV "descricao" para afastar os botões do texto */
+}
+
+.titulo {
+    font-size: 40px; /* Define o tamanho da fonte do elemento título */
 }
