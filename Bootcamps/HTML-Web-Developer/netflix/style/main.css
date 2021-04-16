@@ -1,0 +1,57 @@
+:root {
+
+    /*
+        Cria as variáveis com os nomes definidos abaixo
+        dentro do documento CSS.
+    */
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    /*
+        Definem que a margem e o padding do site será
+        igual a 0 para que os diferentes navegadores
+        não definam esses valores por padrão.
+    */
+    margin: 0;
+    padding: 0;
+
+    /*
+        Delimita que o limite máximo de todos os elementos
+        que estão dentro da caixa (div) será o limite
+        pré-determinado no CSS, fazendo com que nenhum
+        deles ultrapasse o limite estipulado e com que os
+        elementos se espremam para caber na caixa.
+    */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preto); /* Define a cor do fundo do elemento body para a cor que está dentro da variável "preta" */
+    font-family: 'Times New Roman', Times, serif; /* Define a família de fontes utilizadas no site */
+}
+
+header .logo {
+    color: var(--vermelho); /* Define que a cor do texto que está na classe "logo" dentro do header será a mesma contina dentro da variável "vermelho" */
+    font-family: 'Arial Black', Times; /* Define a fonte do texto */
+    font-size: 40px; /* Altera o tamanho da fonte */
+    margin-left: 5px; /* Cria uma margem à direita do elemento pai (da janela) de cinco pixels, para não ficar colado no canto */
+}
+
+header nav a {
+    text-decoration: none; /* Tira as "decorações de texto" dos links do menu contidos dentro do elemtno "a" do "nav" do "header" (sublinhados, etc) */
+    color: #AAA; /* Define a cor do elemento "a" (do texto) */
+    margin-right: 10px; /* Cria uma margem à direita de cada item "a" equivalente a 10 pixels */
+}
+
+header nav a:hover { /* Sempre que o mouse está em cima do elemento "a" da "nav" do "header", as instruções no bloco acontecem */
+    color: #FFF;
+}
+
+header .container { /* Trata o item que tem a classe "container" dentro do "header" */
+    display: flex; /* Utiliza o flex-box para alinhar os itens na tela. Sempre tem a tendência de jogar todas as coisas como "row", que significa que tudo será alinhado - numa linha */
+    flex-direction: row; /* Propriedade padrão quando 'display:flex;' é inserido. Deixa tudo em linha. Inserida apenas por semântica, mas poderia não inserir */
+    align-items: center; /* Alinha os itens dentro do container ao centro. 'Align-items' sempre alinha de maneira vertical. Como tudo está em linha por conta das propriedades anteriores, serão alinhadas ao centro da linha */
+    justify-content: space-between; /* Alinha os elementos de maneira horizontal. 'space-between' cria um espaço entre os itens contidos no elemento tratado */
+}
