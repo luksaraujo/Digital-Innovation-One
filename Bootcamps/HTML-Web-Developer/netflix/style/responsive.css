@@ -1,0 +1,17 @@
+@media screen and (max-width: 700px){ /* Aplica os comandos contidos no bloco quando a largura da tela for de até 700 px */
+    header .container { /* Manipula o container do header */
+        display: flex; /* Determina o display para flex */
+        flex-direction: column; /* Organiza os elementos em colunas (neste caso, joga o menu para baixo do logo) */
+    }
+
+    .botao { /* Manipula os itens que têm a classe botão */
+        margin-top: 5px; /* Define uma margem de 5px dos itens que estão acima de cada item com essa classe (nesse caso, serve para os botões ficarem um pouco separados) */
+        width: 300px; /* Diminui um pouco o tamanho dos botões para que eles não fiquem estranhos */
+    }
+}
+
+@media screen and (min-width: 1000px) { /* Aplica o bloco de comandos sempre que a tela tiver no mínimo mil pixels (ou ter mais do que isso) */
+    .descricao { /* Manipula os elementos que têm a classe descricao */
+        width: 50%; /* Permite que o tamanho do item seja de 50% do tamanho disponível */
+    }
+}

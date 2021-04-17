@@ -31,7 +31,7 @@
 
 body {
     background-color: var(--preto); /* Define a cor do fundo do elemento body para a cor que está dentro da variável "preta" */
-    font-family: 'Times New Roman', Times, serif; /* Define a família de fontes utilizadas no site */
+    font-family: 'Arial', Times, serif; /* Define a família de fontes utilizadas no site */
     color: white; /* Define a cor dos elementos filhos que não têm definição de cor como branca */
 }
 
@@ -115,4 +115,8 @@ header .container { /* Trata o item que tem a classe "container" dentro do "head
     height: 100%; /* Define a altura da imagem para o seu tamanho original */
     width: 100%; /* Define a largura da imagem para o seu tamanho original */
     display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
 }
