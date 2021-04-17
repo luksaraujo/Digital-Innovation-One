@@ -102,3 +102,11 @@ header .container { /* Trata o item que tem a classe "container" dentro do "head
 .botao i { /* Referencia a tag i dentro do item que possui a classe botao */
     margin-right: 5px; /* Cria uma margem de 5px à direita da tag i */
 }
+
+.container { /* Aplica o bloco de instruções abaixo em todos os elementos que possuem a classe container */
+    margin-left: 20px; /* Adiciona uma margem de 20 px à esquerda de todos os itens que possuem a classe */
+}
+
+.filme-principal .container { /* Altera apenas o container que está dentro de .filme-principal */
+    width: 70%; /* O container dentro de filme principal terá uma largura de 70% do valor total da tela ou da sua área */
+}
