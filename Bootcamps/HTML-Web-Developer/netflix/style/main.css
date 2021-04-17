@@ -74,8 +74,31 @@ header .container { /* Trata o item que tem a classe "container" dentro do "head
 
 .filme-principal .descricao {
     margin-bottom: 40px; /* Cria uma margem abaixo da DIV "descricao" para afastar os botões do texto */
+    margin-top: 10px; /* Dá um espaço de dez pixels entre a descrição do filme e o título */
 }
 
-.titulo {
+.filme-principal .titulo {
+    margin-top: 15%; /* Cria uma margem com a distância equivalente a 15% do valor total da área */
     font-size: 40px; /* Define o tamanho da fonte do elemento título */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50); /* Define a cor do botão */
+    border: none; /* Tira a borda do botão */
+    color: white; /* Define a cor do que está dentro do botão (texto) */
+    padding: 15px 30px; /* Cria um espaçamento interno dentro do elemento */
+    margin-right: 15px; /* Cria uma margem à direita de cada elemento para que eles se distanciem um pouco */
+    font-size: 12px; /* Define o tamanho da fonte dos botões */
+    cursor: pointer; /* Transforma o cursor em uma mãozinha quando ele passa em cima do botão */
+    transition: .3s ease all; /* Cria uma transição animada entre um estado e outro do elemento (entre passar o mouse em cima e sair) */
+}
+
+.botao:hover { /* Quando alguém passa o mouse em cima do elemento que possui a classe botao */
+    background-color: white; /* Muda a cor de fundo para branco */
+    color: black; /* muda a cor do que está dentro para preto */
+}
+
+.botao i { /* Referencia a tag i dentro do item que possui a classe botao */
+    margin-right: 5px; /* Cria uma margem de 5px à direita da tag i */
 }
