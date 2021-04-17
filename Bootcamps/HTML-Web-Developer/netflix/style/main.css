@@ -110,3 +110,9 @@ header .container { /* Trata o item que tem a classe "container" dentro do "head
 .filme-principal .container { /* Altera apenas o container que está dentro de .filme-principal */
     width: 70%; /* O container dentro de filme principal terá uma largura de 70% do valor total da tela ou da sua área */
 }
+
+.box-filme { /* Trata as imagens referentes às capas dos títulos */
+    height: 100%; /* Define a altura da imagem para o seu tamanho original */
+    width: 100%; /* Define a largura da imagem para o seu tamanho original */
+    display: block;
+}
