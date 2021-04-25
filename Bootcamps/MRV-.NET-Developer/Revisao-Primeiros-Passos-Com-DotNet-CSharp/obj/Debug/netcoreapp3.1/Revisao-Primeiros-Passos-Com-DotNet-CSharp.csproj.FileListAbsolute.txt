@@ -1,0 +1,13 @@
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\bin\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.exe
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\bin\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.deps.json
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\bin\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.runtimeconfig.json
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\bin\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.runtimeconfig.dev.json
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\bin\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.dll
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\bin\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.pdb
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\obj\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.csprojAssemblyReference.cache
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\obj\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\obj\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.AssemblyInfo.cs
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\obj\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\obj\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.dll
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\obj\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.pdb
+C:\Users\lucas\Desktop\Teste\Revisao-Primeiros-Passos-Com-DotNet-CSharp\obj\Debug\netcoreapp3.1\Revisao-Primeiros-Passos-Com-DotNet-CSharp.genruntimeconfig.cache
